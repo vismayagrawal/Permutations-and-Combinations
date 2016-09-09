@@ -68,14 +68,18 @@
 	}
 </style>
 <div class='allInput' id='allInput'>
-	<script type="text/javascript">
-		var templete = '';
-		var textT=["a","b","c"];
-		for (var i = 0; i < 3; i++) {
-			templete += '<div><h1>'+ textT[i] +'</h1><input maxlength="1" id="'+ textT[i] +'"placeholder="Single Digit No."></div>'
-		};
-		document.getElementById('allInput').innerHTML = templete;
-	</script>
+	<div>
+		<h1>A</h1>
+		<input maxlength='1' id='a' placeholder='Single Digit No.'>
+	</div>
+	<div>
+		<h1>B</h1>
+		<input maxlength='1' id='b' placeholder='Single Digit No.'>
+	</div>
+	<div>
+		<h1>C</h1>
+		<input maxlength='1' id='c' placeholder='Single Digit No.'>
+	</div>
 	<div>
 		<h1>N</h1>
 		<input type='number' maxlength='9' id='n' placeholder='No.'>
